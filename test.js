@@ -1,2 +1,2 @@
-const apiKey = process.env.API_KEY;
+const apiKey = process.env.OPENWEATHER_API_KEY;
 console.log(apiKey);
