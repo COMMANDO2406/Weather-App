@@ -21,6 +21,8 @@ async function checkWeather(city) {
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/hr";
 
+    console.log("Weather description:", data.weather[0].main);
+
     if (data.weather[0].main == "Clouds") {
       weathericon.src = "assets/cloudy.png";
     }
@@ -34,7 +36,7 @@ async function checkWeather(city) {
       weathericon.src = "assets/drizzle.png";
     }
     if (data.weather[0].main == "Mist") {
-      weathericon.src = "assets/cloudy.png";
+      weathericon.src = "assets/drizzle.png";
     }
     document.querySelector(".weather").style.display = "block";
     document.querySelector(".error").style.display = "none";
