@@ -3,7 +3,7 @@
 A simple weather app that provides current weather information for any city using the OpenWeather API. This app allows users to search for a city and view current weather conditions, including temperature, humidity, wind speed, and a relevant weather icon.
 
 ## Live Demo
-[https://github.com/COMMANDO2406/Weather-App](https://commando2406.github.io/Weather-App/)
+[https://github.com/brick-24/Weather-App](https://brick-24.github.io/Weather-App/)
 
 ## Features
 
